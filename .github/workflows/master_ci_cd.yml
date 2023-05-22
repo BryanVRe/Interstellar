@@ -88,7 +88,7 @@ jobs:
           manifest: manifests/k8s.yaml
           tag: ${{ secrets.DOCKER_USERNAME }}/${{secrets.MODEL_NAME_MASTER}}:${{github.sha}}
           
-          
+        
           
           
 #To-do list: Update data of accounts if it's neccesary
